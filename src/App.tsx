@@ -1,7 +1,5 @@
 import { Cards } from './components/cards/cards';
 import { DashboardLayout } from './components/dashboard-layout/dashboard-layout';
-import { Goals } from './components/goals/goals';
-import { OutcomeStatistics } from './components/outcome-statistics/outcome-statistics';
 import { Section } from './components/section/section';
 import { TransactionHistory } from './components/transaction-history/transaction-history';
 import PageHeader from './components/page-header/page-header';
@@ -32,8 +30,6 @@ function App() {
                             <TransactionHistory />
                         </div>
                         <div className={styles.secondaryColumn}>
-                            <Goals />
-                            <OutcomeStatistics />
                             <div className={styles.userActionsSection}>
                                 <NewTransaction />
                                 <GetLoanBanner />
